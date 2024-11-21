@@ -1,0 +1,24 @@
+/* Project Card Hover Animation */
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effects for images */
+img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+/* Scroll animation for project cards */
+.project-card {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+.project-card.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
