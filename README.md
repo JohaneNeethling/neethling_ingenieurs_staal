@@ -49,3 +49,15 @@ npm start
 - **Tailwind CSS**: Utility-first CSS framework for fast UI styling.
 - **Framer Motion**: Animation library for React to handle smooth transitions and animations.
 - **React Intersection Observer**: To detect when elements come into view and trigger animations.
+
+## Contributing
+
+- **Fork the repository**
+- **Create a new branch**
+- **Commit your changes**
+- **Push to the branch**
+- **Open a Pull Request**
+
+## Lisence
+
+This project is licensed under the MIT License.
